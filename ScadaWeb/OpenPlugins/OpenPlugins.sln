@@ -49,6 +49,16 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlgSchBasicComp.Shared", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgScheme.EditorWeb", "PlgScheme.EditorWeb\PlgScheme.EditorWeb.csproj", "{2418118A-C3C1-4BA0-A4D2-B3C9F76C4006}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaCommon", "..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj", "{FE0DA5C7-2701-4621-8F1D-30703F169E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaCommon.Log", "..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj", "{29FB14D1-BEA7-40EE-8C6C-980EC91ECDF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaWebCommon", "..\ScadaWeb\ScadaWebCommon\ScadaWebCommon.csproj", "{FBF45803-E5FA-4DBA-A6E1-B3460447A189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaWebCommon.Subset", "..\ScadaWeb\ScadaWebCommon.Subset\ScadaWebCommon.Subset.csproj", "{5870AEBB-805B-426D-8994-EB3C8DD6175D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaReport", "..\..\ScadaReport\ScadaReport\ScadaReport.csproj", "{AFDC81FE-28C0-4E47-91D3-912607A523F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +129,26 @@ Global
 		{2418118A-C3C1-4BA0-A4D2-B3C9F76C4006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2418118A-C3C1-4BA0-A4D2-B3C9F76C4006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2418118A-C3C1-4BA0-A4D2-B3C9F76C4006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0DA5C7-2701-4621-8F1D-30703F169E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0DA5C7-2701-4621-8F1D-30703F169E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0DA5C7-2701-4621-8F1D-30703F169E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0DA5C7-2701-4621-8F1D-30703F169E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FB14D1-BEA7-40EE-8C6C-980EC91ECDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FB14D1-BEA7-40EE-8C6C-980EC91ECDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FB14D1-BEA7-40EE-8C6C-980EC91ECDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FB14D1-BEA7-40EE-8C6C-980EC91ECDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF45803-E5FA-4DBA-A6E1-B3460447A189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF45803-E5FA-4DBA-A6E1-B3460447A189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF45803-E5FA-4DBA-A6E1-B3460447A189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF45803-E5FA-4DBA-A6E1-B3460447A189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5870AEBB-805B-426D-8994-EB3C8DD6175D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5870AEBB-805B-426D-8994-EB3C8DD6175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5870AEBB-805B-426D-8994-EB3C8DD6175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5870AEBB-805B-426D-8994-EB3C8DD6175D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDC81FE-28C0-4E47-91D3-912607A523F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDC81FE-28C0-4E47-91D3-912607A523F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDC81FE-28C0-4E47-91D3-912607A523F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDC81FE-28C0-4E47-91D3-912607A523F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

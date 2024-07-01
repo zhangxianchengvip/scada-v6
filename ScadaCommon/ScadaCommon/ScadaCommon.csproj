@@ -15,4 +15,10 @@
     <ProjectReference Include="..\ScadaCommon.Log\ScadaCommon.Log.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Config\ScadaInstanceConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

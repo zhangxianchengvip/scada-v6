@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaServerWkr", "ScadaServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaServerCommon.Forms", "ScadaServerCommon.Forms\ScadaServerCommon.Forms.csproj", "{10FACE34-AED6-4071-AAC0-4B2401E27F85}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaCommon", "..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj", "{04737880-ED22-4798-87D9-6336BF3B06BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaCommon.Log", "..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj", "{A32F1CFB-3EC7-4F09-B13B-4831117D5CD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScadaCommon.Forms", "..\..\ScadaCommon\ScadaCommon.Forms\ScadaCommon.Forms.csproj", "{251F6E33-E833-4BF0-9715-55E80806B462}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{10FACE34-AED6-4071-AAC0-4B2401E27F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10FACE34-AED6-4071-AAC0-4B2401E27F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10FACE34-AED6-4071-AAC0-4B2401E27F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04737880-ED22-4798-87D9-6336BF3B06BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04737880-ED22-4798-87D9-6336BF3B06BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04737880-ED22-4798-87D9-6336BF3B06BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04737880-ED22-4798-87D9-6336BF3B06BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32F1CFB-3EC7-4F09-B13B-4831117D5CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32F1CFB-3EC7-4F09-B13B-4831117D5CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32F1CFB-3EC7-4F09-B13B-4831117D5CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32F1CFB-3EC7-4F09-B13B-4831117D5CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251F6E33-E833-4BF0-9715-55E80806B462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251F6E33-E833-4BF0-9715-55E80806B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251F6E33-E833-4BF0-9715-55E80806B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251F6E33-E833-4BF0-9715-55E80806B462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

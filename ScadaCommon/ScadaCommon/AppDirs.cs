@@ -167,7 +167,9 @@ namespace Scada
                 : Path.Combine(commonDataDir, new DirectoryInfo(exeDir).Name);
 
             ExeDir = ScadaUtils.NormalDir(exeDir);
-            InstanceDir = ScadaUtils.NormalDir(Path.GetFullPath(Path.Combine(exeDir, "..")));
+            //TODO:修改了返回路径
+            //InstanceDir = ScadaUtils.NormalDir(Path.GetFullPath(Path.Combine(exeDir, "..")));
+            InstanceDir=AppendDir(dataDir, "");
             CmdDir = AppendDir(dataDir, "Cmd");
             ConfigDir = AppendDir(dataDir, "Config");
             LangDir = AppendDir(exeDir, "Lang");
