@@ -296,7 +296,7 @@ namespace Scada.Web.Code
 
                 foreach (string pluginCode in AppConfig.PluginCodes)
                 {
-                    if (PluginFactory.GetPluginLogic(AppDirs.ExeDir, pluginCode, this, 
+                    if (PluginFactory.GetPluginLogic(AppDirs.ExeDir, pluginCode, this,
                         out PluginLogic pluginLogic, out string message))
                     {
                         Log.WriteAction(message);
@@ -485,6 +485,8 @@ namespace Scada.Web.Code
 
                                     PluginHolder.OnAppReady();
                                     configUpdateStep = ConfigUpdateStep.Idle;
+                                    //TODO:这里停止了代码无线循环
+                                    terminated = !terminated;
                                 }
                             }
                             break;
