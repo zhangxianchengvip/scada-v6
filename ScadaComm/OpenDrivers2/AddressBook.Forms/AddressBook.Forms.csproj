@@ -15,16 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Forms\ScadaCommon.Forms.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj" />
     <ProjectReference Include="..\AddressBook\AddressBook.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="ScadaCommon">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon\bin\Release\netstandard2.0\ScadaCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon.Forms">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon.Forms\bin\Release\net6.0-windows\ScadaCommon.Forms.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>

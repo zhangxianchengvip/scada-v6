@@ -22,18 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AgentClient">
-      <HintPath>..\..\..\ScadaAgent\ScadaAgent\AgentClient\bin\Release\netstandard2.0\AgentClient.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaAdminCommon">
-      <HintPath>..\..\ScadaAdmin\ScadaAdminCommon\bin\Release\net6.0-windows\ScadaAdminCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon\bin\Release\netstandard2.0\ScadaCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon.Log">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon.Log\bin\Release\netstandard2.0\ScadaCommon.Log.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\ScadaAgent\ScadaAgent\AgentClient\AgentClient.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj" />
+    <ProjectReference Include="..\..\ScadaAdmin\ScadaAdminCommon\ScadaAdminCommon.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -101,8 +101,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgMain.Report", "ScadaWeb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgSchBasicComp", "ScadaWeb\OpenPlugins\PlgSchBasicComp\PlgSchBasicComp.csproj", "{582B1FD6-EA40-459D-9502-11C49BD8076F}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlgSchBasicComp.Shared", "ScadaWeb\OpenPlugins\PlgSchBasicComp.Shared\PlgSchBasicComp.Shared.shproj", "{A9CC759A-54F9-44FB-AD77-DD8F306668F7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgSchBasicComp.View", "ScadaWeb\OpenPlugins\PlgSchBasicComp.View\PlgSchBasicComp.View.csproj", "{CCCF5918-C13B-4AA5-B8E7-3D0AC7C07B36}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgScheme", "ScadaWeb\OpenPlugins\PlgScheme\PlgScheme.csproj", "{D6D52363-3852-43C2-876F-F6A88F4FB4F2}"
@@ -117,9 +115,229 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgScheme.View", "ScadaWeb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgWebPage", "ScadaWeb\OpenPlugins\PlgWebPage\PlgWebPage.csproj", "{59430E2D-7775-413D-B34B-1EB4DD0F2306}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlgWebPage.Shared", "ScadaWeb\OpenPlugins\PlgWebPage.Shared\PlgWebPage.Shared.shproj", "{48540890-21B4-4400-8290-071112B30D53}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlgSchBasicComp.Shared", "ScadaWeb\OpenPlugins\PlgSchBasicComp.Shared\PlgSchBasicComp.Shared.shproj", "{A9CC759A-54F9-44FB-AD77-DD8F306668F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlgWebPage.View", "ScadaWeb\OpenPlugins\PlgWebPage.View\PlgWebPage.View.csproj", "{D51963F9-9AFB-4080-B29E-4C93FB137839}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlgWebPage.Shared", "ScadaWeb\OpenPlugins\PlgWebPage.Shared\PlgWebPage.Shared.shproj", "{48540890-21B4-4400-8290-071112B30D53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenModules", "OpenModules", "{1F85C21D-A770-4E1F-92D4-8FA882881FA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModActiveDirectory.Logic", "ScadaServer\OpenModules\ModActiveDirectory.Logic\ModActiveDirectory.Logic.csproj", "{5051D1AE-2732-4886-A3C9-89EA4CF60AE1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModActiveDirectory.Shared", "ScadaServer\OpenModules\ModActiveDirectory.Shared\ModActiveDirectory.Shared.shproj", "{3E78954F-06ED-436B-B664-3558C497565F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModActiveDirectory.View", "ScadaServer\OpenModules\ModActiveDirectory.View\ModActiveDirectory.View.csproj", "{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcBasic.Logic", "ScadaServer\OpenModules\ModArcBasic.Logic\ModArcBasic.Logic.csproj", "{83B1BD27-D5B8-4B02-8057-159320CAC026}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModArcBasic.Shared", "ScadaServer\OpenModules\ModArcBasic.Shared\ModArcBasic.Shared.shproj", "{F38C6C8A-8213-45B9-8BC8-130338134310}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcBasic.View", "ScadaServer\OpenModules\ModArcBasic.View\ModArcBasic.View.csproj", "{05BFED21-44A8-449F-A5C9-A6A66576F764}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcInfluxDb.Logic", "ScadaServer\OpenModules\ModArcInfluxDb.Logic\ModArcInfluxDb.Logic.csproj", "{1D4D1197-4585-4008-B793-29EA76625E2A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModArcInfluxDb.Shared", "ScadaServer\OpenModules\ModArcInfluxDb.Shared\ModArcInfluxDb.Shared.shproj", "{D8446593-C47E-4EFC-A5D0-163F407AE4FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcInfluxDb.View", "ScadaServer\OpenModules\ModArcInfluxDb.View\ModArcInfluxDb.View.csproj", "{64DD761E-D28D-4A09-AFB5-5190D575541F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModActiveDirectory", "ModActiveDirectory", "{8F97CDF6-F3D7-4526-8027-AD596551FC78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModArcBasic", "ModArcBasic", "{3B549C2E-1DBF-4FF0-9CE6-EEE6CBA4FA9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModArcInfluxDb", "ModArcInfluxDb", "{53BE01AE-FCA1-4ABA-BCC1-A9857C86D0AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModArcPostgreSql", "ModArcPostgreSql", "{59F2B5F2-B7D8-4801-97CD-4FB663F91CD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcPostgreSql.Logic", "ScadaServer\OpenModules\ModArcPostgreSql.Logic\ModArcPostgreSql.Logic.csproj", "{7352FE8A-12A5-46EF-AA16-606C8E5732E9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModArcPostgreSql.Shared", "ScadaServer\OpenModules\ModArcPostgreSql.Shared\ModArcPostgreSql.Shared.shproj", "{EB00B3FE-BAB3-4B5B-9598-E246B1B13D0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModArcPostgreSql.View", "ScadaServer\OpenModules\ModArcPostgreSql.View\ModArcPostgreSql.View.csproj", "{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModDbExport", "ModDbExport", "{732F2974-9130-4712-9B99-A29784EA8C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModDbExport.Logic", "ScadaServer\OpenModules\ModDbExport.Logic\ModDbExport.Logic.csproj", "{E0DA6C21-320F-4905-BA78-9A7A64E0979E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModDbExport.Shared", "ScadaServer\OpenModules\ModDbExport.Shared\ModDbExport.Shared.shproj", "{5A9BCBAE-DC53-42DC-8B65-22B82474DE37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModDbExport.View", "ScadaServer\OpenModules\ModDbExport.View\ModDbExport.View.csproj", "{0718C117-238F-4EA0-AF93-58C1BF4726A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModDiffCalculator", "ModDiffCalculator", "{E294591C-0688-482A-B99B-988C75C3509B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModDiffCalculator.Logic", "ScadaServer\OpenModules\ModDiffCalculator.Logic\ModDiffCalculator.Logic.csproj", "{80E38F1B-9050-4401-9AEC-C51719EE3E2D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ModDiffCalculator.Shared", "ScadaServer\OpenModules\ModDiffCalculator.Shared\ModDiffCalculator.Shared.shproj", "{B6E955EA-6A3E-4046-9A3A-38062910BAF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModDiffCalculator.View", "ScadaServer\OpenModules\ModDiffCalculator.View\ModDiffCalculator.View.csproj", "{667B3F16-968C-41DF-B4D5-C41AA7345E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenExtensions", "OpenExtensions", "{8484208C-3613-44F8-AF1A-5268651A08AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtCommConfig", "ScadaAdmin\OpenExtensions\ExtCommConfig\ExtCommConfig.csproj", "{678578F4-973D-4A28-B7D4-555C4BEBFF59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtDepAgent", "ScadaAdmin\OpenExtensions\ExtDepAgent\ExtDepAgent.csproj", "{7CFD129B-82DB-4BA0-82CE-CD89929C148B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtDepPostgreSql", "ScadaAdmin\OpenExtensions\ExtDepPostgreSql\ExtDepPostgreSql.csproj", "{1A606C08-EAC4-4590-A902-270D7A34D31F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtProjectTools", "ScadaAdmin\OpenExtensions\ExtProjectTools\ExtProjectTools.csproj", "{54C169A9-543C-45EE-BA58-46097B29C182}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtServerConfig", "ScadaAdmin\OpenExtensions\ExtServerConfig\ExtServerConfig.csproj", "{DCAD2223-52A0-4FB4-8616-45483987FA71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtTableEditor", "ScadaAdmin\OpenExtensions\ExtTableEditor\ExtTableEditor.csproj", "{1FD67E79-CA23-45D6-A50B-5DC6402EE863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtWebConfig", "ScadaAdmin\OpenExtensions\ExtWebConfig\ExtWebConfig.csproj", "{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtWirenBoard", "ScadaAdmin\OpenExtensions\ExtWirenBoard\ExtWirenBoard.csproj", "{51EE1A38-7BA8-4120-88BE-E003E1436B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenDrivers", "OpenDrivers", "{E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenDrivers2", "OpenDrivers2", "{B9E3D1FB-12F4-419C-BD8B-D592165165DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvCnlBasic", "DrvCnlBasic", "{6E74DBD6-02C6-4012-A759-B6D83A3CC716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvDbImport", "DrvDbImport", "{3BFD3615-C139-41E6-996C-B22D553D4A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvDsOpcUaServer", "DrvDsOpcUaServer", "{EC749B47-BBAC-4AA1-BCEF-B2740F3A2864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvDsScadaServer", "DrvDsScadaServer", "{CF174DD6-B8A0-4A8F-A2FE-E8B8348B0BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvEnronModbus", "DrvEnronModbus", "{F7E990D1-DEE8-4D5D-B0C6-D832C4DBA8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvModbus", "DrvModbus", "{41709CC1-B661-4E08-B331-15E44646E612}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvMqtt", "DrvMqtt", "{66D8380F-C329-4298-9DFF-F26568F464C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvOpcUa", "DrvOpcUa", "{B084E980-82ED-4FD9-A355-4D4BC874651B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvSimulator", "DrvSimulator", "{0B08C498-5648-4DB0-8ACE-4887FE11F25D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvTester", "DrvTester", "{024EFBD2-FE11-4745-8C96-879283AB8369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCnlBasic.Logic", "ScadaComm\OpenDrivers\DrvCnlBasic.Logic\DrvCnlBasic.Logic.csproj", "{81D67FA6-C80F-4AF1-A593-735A7E1AB53D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvCnlBasic.Shared", "ScadaComm\OpenDrivers\DrvCnlBasic.Shared\DrvCnlBasic.Shared.shproj", "{DE8C7D65-1037-4D04-8197-861BF5245DEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCnlBasic.View", "ScadaComm\OpenDrivers\DrvCnlBasic.View\DrvCnlBasic.View.csproj", "{473BFD04-A93B-4027-B940-A995D4BD2AAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCnlMqtt.Logic", "ScadaComm\OpenDrivers\DrvCnlMqtt.Logic\DrvCnlMqtt.Logic.csproj", "{49067777-902B-43C1-955F-DF75B1F81271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDbImport.Logic", "ScadaComm\OpenDrivers\DrvDbImport.Logic\DrvDbImport.Logic.csproj", "{4262BE57-2779-43AB-9EDE-F3292D00B872}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvDbImport.Shared", "ScadaComm\OpenDrivers\DrvDbImport.Shared\DrvDbImport.Shared.shproj", "{BC00F25A-B6E7-47EF-86C6-739C89C67312}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDbImport.View", "ScadaComm\OpenDrivers\DrvDbImport.View\DrvDbImport.View.csproj", "{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsOpcUaServer.Common", "ScadaComm\OpenDrivers\DrvDsOpcUaServer.Common\DrvDsOpcUaServer.Common.csproj", "{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsOpcUaServer.Logic", "ScadaComm\OpenDrivers\DrvDsOpcUaServer.Logic\DrvDsOpcUaServer.Logic.csproj", "{5DA76F1B-1EDC-41CF-9326-17FAF9C15973}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsOpcUaServer.View", "ScadaComm\OpenDrivers\DrvDsOpcUaServer.View\DrvDsOpcUaServer.View.csproj", "{359B6742-D7EF-489F-BCD3-217473961783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsScadaServer.Logic", "ScadaComm\OpenDrivers\DrvDsScadaServer.Logic\DrvDsScadaServer.Logic.csproj", "{526ADAF9-4590-42CE-9401-3309D8B42727}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvDsScadaServer.Shared", "ScadaComm\OpenDrivers\DrvDsScadaServer.Shared\DrvDsScadaServer.Shared.shproj", "{A8E564D4-B76A-408B-AD23-F43A486BD7BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsScadaServer.View", "ScadaComm\OpenDrivers\DrvDsScadaServer.View\DrvDsScadaServer.View.csproj", "{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvEnronModbus.Logic", "ScadaComm\OpenDrivers\DrvEnronModbus.Logic\DrvEnronModbus.Logic.csproj", "{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvEnronModbus.Shared", "ScadaComm\OpenDrivers\DrvEnronModbus.Shared\DrvEnronModbus.Shared.shproj", "{A51DE707-414B-4F30-8086-5A82A97D1A2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvEnronModbus.View", "ScadaComm\OpenDrivers\DrvEnronModbus.View\DrvEnronModbus.View.csproj", "{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvModbus.Common", "ScadaComm\OpenDrivers\DrvModbus.Common\DrvModbus.Common.csproj", "{74D6FAAA-443A-44E3-A64B-E7098188CB91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvModbus.View", "ScadaComm\OpenDrivers\DrvModbus.View\DrvModbus.View.csproj", "{B7143004-2C95-4792-A48A-174AFEFB8588}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvModbus.Logic", "ScadaComm\OpenDrivers\DrvModbus.Logic\DrvModbus.Logic.csproj", "{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqtt.Common", "ScadaComm\OpenDrivers\DrvMqtt.Common\DrvMqtt.Common.csproj", "{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqttClient.Common", "ScadaComm\OpenDrivers\DrvMqttClient.Common\DrvMqttClient.Common.csproj", "{1B8DFEF4-62C5-457E-9306-48F764B2F65C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqttClient.Logic", "ScadaComm\OpenDrivers\DrvMqttClient.Logic\DrvMqttClient.Logic.csproj", "{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqttClient.View", "ScadaComm\OpenDrivers\DrvMqttClient.View\DrvMqttClient.View.csproj", "{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqttPublisher.Logic", "ScadaComm\OpenDrivers\DrvMqttPublisher.Logic\DrvMqttPublisher.Logic.csproj", "{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvMqttPublisher.Shared", "ScadaComm\OpenDrivers\DrvMqttPublisher.Shared\DrvMqttPublisher.Shared.shproj", "{B4923372-4BAA-4B51-995E-01AE7ADBCBD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvMqttPublisher.View", "ScadaComm\OpenDrivers\DrvMqttPublisher.View\DrvMqttPublisher.View.csproj", "{5B1A47C8-60CC-4E6B-B0F6-E066E8718042}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvDsMqtt.Shared", "ScadaComm\OpenDrivers\DrvDsMqtt.Shared\DrvDsMqtt.Shared.shproj", "{709169F9-0F33-4E14-9FD1-AA9C3D5ED4AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsMqtt.View", "ScadaComm\OpenDrivers\DrvDsMqtt.View\DrvDsMqtt.View.csproj", "{64D2F952-005B-4134-86C8-74E71BC8699C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCnlMqtt.View", "ScadaComm\OpenDrivers\DrvCnlMqtt.View\DrvCnlMqtt.View.csproj", "{BDA79966-BF7B-48A3-938D-9B6CA7827004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvDsMqtt.Logic", "ScadaComm\OpenDrivers\DrvDsMqtt.Logic\DrvDsMqtt.Logic.csproj", "{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvOpcUa.Common", "ScadaComm\OpenDrivers\DrvOpcUa.Common\DrvOpcUa.Common.csproj", "{DF547721-41F9-4D65-B0B4-15DDBDDD8013}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvOpcUa.Logic", "ScadaComm\OpenDrivers\DrvOpcUa.Logic\DrvOpcUa.Logic.csproj", "{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvOpcUa.View", "ScadaComm\OpenDrivers\DrvOpcUa.View\DrvOpcUa.View.csproj", "{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSimulator.Logic", "ScadaComm\OpenDrivers\DrvSimulator.Logic\DrvSimulator.Logic.csproj", "{DC4EC590-B431-471D-BA5E-4C884143DE4B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvSimulator.Shared", "ScadaComm\OpenDrivers\DrvSimulator.Shared\DrvSimulator.Shared.shproj", "{459D0B20-51A9-4AA8-8CCC-9F5B34A74029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSimulator.View", "ScadaComm\OpenDrivers\DrvSimulator.View\DrvSimulator.View.csproj", "{0295DCBD-B115-40F1-843C-422F1D3C8CE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvTester.Logic", "ScadaComm\OpenDrivers\DrvTester.Logic\DrvTester.Logic.csproj", "{E7AF08D9-6A64-4BE3-801C-7ED444331788}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvTester.Shared", "ScadaComm\OpenDrivers\DrvTester.Shared\DrvTester.Shared.shproj", "{1A325222-6683-4D81-8293-AC5BD4C8D3BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvTester.View", "ScadaComm\OpenDrivers\DrvTester.View\DrvTester.View.csproj", "{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddressBookProjects", "AddressBookProjects", "{379F8F60-D0AD-4CB8-8E8C-3E07BFAACDC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvCsvReader", "DrvCsvReader", "{095D51D0-87E5-4DB8-B6E5-953475B0ADBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvEmail", "DrvEmail", "{BC6569D7-C471-4404-9FB2-6075F082EA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvHttpNotif", "DrvHttpNotif", "{C6BC376F-1858-4706-BA37-066AD2D0E86C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvSms", "DrvSms", "{15BE36B1-4C24-479E-BE21-A6AE29AB7703}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrvSnmp", "DrvSnmp", "{3B46D9E1-AA6E-4A24-AEBD-E5586B8ECB7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook", "ScadaComm\OpenDrivers2\AddressBook\AddressBook.csproj", "{83DF5213-E094-435C-9A57-CB93B196B87C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook.Forms", "ScadaComm\OpenDrivers2\AddressBook.Forms\AddressBook.Forms.csproj", "{CCC5C36F-93E1-465E-84DD-FB86C04368C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCsvReader.Logic", "ScadaComm\OpenDrivers2\DrvCsvReader.Logic\DrvCsvReader.Logic.csproj", "{BA48640C-51BB-4720-A7E6-4F204A7B68E7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvCsvReader.Shared", "ScadaComm\OpenDrivers2\DrvCsvReader.Shared\DrvCsvReader.Shared.shproj", "{1AFBC156-92EE-4118-84D6-AE163D0E654E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvCsvReader.View", "ScadaComm\OpenDrivers2\DrvCsvReader.View\DrvCsvReader.View.csproj", "{463C6656-FAD4-4A6B-A715-A3F9BE4780DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvEmail.Logic", "ScadaComm\OpenDrivers2\DrvEmail.Logic\DrvEmail.Logic.csproj", "{6A356915-DEA1-4DF5-8F4A-B224A59AC605}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvEmail.Shared", "ScadaComm\OpenDrivers2\DrvEmail.Shared\DrvEmail.Shared.shproj", "{A28F2459-D7F3-4F5B-A53E-216CABE2310F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvEmail.View", "ScadaComm\OpenDrivers2\DrvEmail.View\DrvEmail.View.csproj", "{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvHttpNotif.Logic", "ScadaComm\OpenDrivers2\DrvHttpNotif.Logic\DrvHttpNotif.Logic.csproj", "{A04EA0C1-1935-48F2-A57F-891D92907A20}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvHttpNotif.Shared", "ScadaComm\OpenDrivers2\DrvHttpNotif.Shared\DrvHttpNotif.Shared.shproj", "{B9F18976-DCB3-4895-BE6E-3EBA9129A370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvHttpNotif.View", "ScadaComm\OpenDrivers2\DrvHttpNotif.View\DrvHttpNotif.View.csproj", "{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSms.Logic", "ScadaComm\OpenDrivers2\DrvSms.Logic\DrvSms.Logic.csproj", "{9C29B8DB-1A06-45EF-937F-D572597361EB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvSms.Shared", "ScadaComm\OpenDrivers2\DrvSms.Shared\DrvSms.Shared.shproj", "{3C5B9DB4-E1E0-4F37-8F3D-68B86699838E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSms.View", "ScadaComm\OpenDrivers2\DrvSms.View\DrvSms.View.csproj", "{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSnmp.Logic", "ScadaComm\OpenDrivers2\DrvSnmp.Logic\DrvSnmp.Logic.csproj", "{8025C61E-4F0D-4D2F-A769-111F2FFB5E06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSms.Tests", "ScadaComm\OpenDrivers2\DrvSms.Tests\DrvSms.Tests.csproj", "{C8F12701-4293-4A0C-B142-8441054E0575}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrvSnmp.Shared", "ScadaComm\OpenDrivers2\DrvSnmp.Shared\DrvSnmp.Shared.shproj", "{C7419BB6-0C51-49A0-95D1-40938C203187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrvSnmp.View", "ScadaComm\OpenDrivers2\DrvSnmp.View\DrvSnmp.View.csproj", "{28B361A8-9566-4463-ABD8-F04963700E30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -295,6 +513,262 @@ Global
 		{D51963F9-9AFB-4080-B29E-4C93FB137839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51963F9-9AFB-4080-B29E-4C93FB137839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51963F9-9AFB-4080-B29E-4C93FB137839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5051D1AE-2732-4886-A3C9-89EA4CF60AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5051D1AE-2732-4886-A3C9-89EA4CF60AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5051D1AE-2732-4886-A3C9-89EA4CF60AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5051D1AE-2732-4886-A3C9-89EA4CF60AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B1BD27-D5B8-4B02-8057-159320CAC026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B1BD27-D5B8-4B02-8057-159320CAC026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B1BD27-D5B8-4B02-8057-159320CAC026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B1BD27-D5B8-4B02-8057-159320CAC026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BFED21-44A8-449F-A5C9-A6A66576F764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BFED21-44A8-449F-A5C9-A6A66576F764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BFED21-44A8-449F-A5C9-A6A66576F764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BFED21-44A8-449F-A5C9-A6A66576F764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4D1197-4585-4008-B793-29EA76625E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4D1197-4585-4008-B793-29EA76625E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4D1197-4585-4008-B793-29EA76625E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4D1197-4585-4008-B793-29EA76625E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DD761E-D28D-4A09-AFB5-5190D575541F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DD761E-D28D-4A09-AFB5-5190D575541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DD761E-D28D-4A09-AFB5-5190D575541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DD761E-D28D-4A09-AFB5-5190D575541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7352FE8A-12A5-46EF-AA16-606C8E5732E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7352FE8A-12A5-46EF-AA16-606C8E5732E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7352FE8A-12A5-46EF-AA16-606C8E5732E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7352FE8A-12A5-46EF-AA16-606C8E5732E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DA6C21-320F-4905-BA78-9A7A64E0979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DA6C21-320F-4905-BA78-9A7A64E0979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DA6C21-320F-4905-BA78-9A7A64E0979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DA6C21-320F-4905-BA78-9A7A64E0979E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0718C117-238F-4EA0-AF93-58C1BF4726A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0718C117-238F-4EA0-AF93-58C1BF4726A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0718C117-238F-4EA0-AF93-58C1BF4726A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0718C117-238F-4EA0-AF93-58C1BF4726A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E38F1B-9050-4401-9AEC-C51719EE3E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E38F1B-9050-4401-9AEC-C51719EE3E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E38F1B-9050-4401-9AEC-C51719EE3E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E38F1B-9050-4401-9AEC-C51719EE3E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667B3F16-968C-41DF-B4D5-C41AA7345E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667B3F16-968C-41DF-B4D5-C41AA7345E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667B3F16-968C-41DF-B4D5-C41AA7345E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667B3F16-968C-41DF-B4D5-C41AA7345E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678578F4-973D-4A28-B7D4-555C4BEBFF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678578F4-973D-4A28-B7D4-555C4BEBFF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678578F4-973D-4A28-B7D4-555C4BEBFF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678578F4-973D-4A28-B7D4-555C4BEBFF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFD129B-82DB-4BA0-82CE-CD89929C148B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFD129B-82DB-4BA0-82CE-CD89929C148B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFD129B-82DB-4BA0-82CE-CD89929C148B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFD129B-82DB-4BA0-82CE-CD89929C148B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A606C08-EAC4-4590-A902-270D7A34D31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A606C08-EAC4-4590-A902-270D7A34D31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A606C08-EAC4-4590-A902-270D7A34D31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A606C08-EAC4-4590-A902-270D7A34D31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C169A9-543C-45EE-BA58-46097B29C182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C169A9-543C-45EE-BA58-46097B29C182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C169A9-543C-45EE-BA58-46097B29C182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C169A9-543C-45EE-BA58-46097B29C182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAD2223-52A0-4FB4-8616-45483987FA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAD2223-52A0-4FB4-8616-45483987FA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAD2223-52A0-4FB4-8616-45483987FA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAD2223-52A0-4FB4-8616-45483987FA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD67E79-CA23-45D6-A50B-5DC6402EE863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD67E79-CA23-45D6-A50B-5DC6402EE863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD67E79-CA23-45D6-A50B-5DC6402EE863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD67E79-CA23-45D6-A50B-5DC6402EE863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EE1A38-7BA8-4120-88BE-E003E1436B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EE1A38-7BA8-4120-88BE-E003E1436B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EE1A38-7BA8-4120-88BE-E003E1436B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EE1A38-7BA8-4120-88BE-E003E1436B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D67FA6-C80F-4AF1-A593-735A7E1AB53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D67FA6-C80F-4AF1-A593-735A7E1AB53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D67FA6-C80F-4AF1-A593-735A7E1AB53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D67FA6-C80F-4AF1-A593-735A7E1AB53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473BFD04-A93B-4027-B940-A995D4BD2AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473BFD04-A93B-4027-B940-A995D4BD2AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473BFD04-A93B-4027-B940-A995D4BD2AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473BFD04-A93B-4027-B940-A995D4BD2AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49067777-902B-43C1-955F-DF75B1F81271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49067777-902B-43C1-955F-DF75B1F81271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49067777-902B-43C1-955F-DF75B1F81271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49067777-902B-43C1-955F-DF75B1F81271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4262BE57-2779-43AB-9EDE-F3292D00B872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4262BE57-2779-43AB-9EDE-F3292D00B872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4262BE57-2779-43AB-9EDE-F3292D00B872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4262BE57-2779-43AB-9EDE-F3292D00B872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA76F1B-1EDC-41CF-9326-17FAF9C15973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA76F1B-1EDC-41CF-9326-17FAF9C15973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA76F1B-1EDC-41CF-9326-17FAF9C15973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA76F1B-1EDC-41CF-9326-17FAF9C15973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359B6742-D7EF-489F-BCD3-217473961783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359B6742-D7EF-489F-BCD3-217473961783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359B6742-D7EF-489F-BCD3-217473961783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359B6742-D7EF-489F-BCD3-217473961783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526ADAF9-4590-42CE-9401-3309D8B42727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526ADAF9-4590-42CE-9401-3309D8B42727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526ADAF9-4590-42CE-9401-3309D8B42727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526ADAF9-4590-42CE-9401-3309D8B42727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D6FAAA-443A-44E3-A64B-E7098188CB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D6FAAA-443A-44E3-A64B-E7098188CB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D6FAAA-443A-44E3-A64B-E7098188CB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D6FAAA-443A-44E3-A64B-E7098188CB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7143004-2C95-4792-A48A-174AFEFB8588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7143004-2C95-4792-A48A-174AFEFB8588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7143004-2C95-4792-A48A-174AFEFB8588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7143004-2C95-4792-A48A-174AFEFB8588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8DFEF4-62C5-457E-9306-48F764B2F65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8DFEF4-62C5-457E-9306-48F764B2F65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8DFEF4-62C5-457E-9306-48F764B2F65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8DFEF4-62C5-457E-9306-48F764B2F65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1A47C8-60CC-4E6B-B0F6-E066E8718042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1A47C8-60CC-4E6B-B0F6-E066E8718042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1A47C8-60CC-4E6B-B0F6-E066E8718042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1A47C8-60CC-4E6B-B0F6-E066E8718042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D2F952-005B-4134-86C8-74E71BC8699C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D2F952-005B-4134-86C8-74E71BC8699C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D2F952-005B-4134-86C8-74E71BC8699C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D2F952-005B-4134-86C8-74E71BC8699C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA79966-BF7B-48A3-938D-9B6CA7827004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA79966-BF7B-48A3-938D-9B6CA7827004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA79966-BF7B-48A3-938D-9B6CA7827004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA79966-BF7B-48A3-938D-9B6CA7827004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF547721-41F9-4D65-B0B4-15DDBDDD8013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF547721-41F9-4D65-B0B4-15DDBDDD8013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF547721-41F9-4D65-B0B4-15DDBDDD8013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF547721-41F9-4D65-B0B4-15DDBDDD8013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4EC590-B431-471D-BA5E-4C884143DE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4EC590-B431-471D-BA5E-4C884143DE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4EC590-B431-471D-BA5E-4C884143DE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4EC590-B431-471D-BA5E-4C884143DE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0295DCBD-B115-40F1-843C-422F1D3C8CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0295DCBD-B115-40F1-843C-422F1D3C8CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0295DCBD-B115-40F1-843C-422F1D3C8CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0295DCBD-B115-40F1-843C-422F1D3C8CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7AF08D9-6A64-4BE3-801C-7ED444331788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AF08D9-6A64-4BE3-801C-7ED444331788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AF08D9-6A64-4BE3-801C-7ED444331788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AF08D9-6A64-4BE3-801C-7ED444331788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DF5213-E094-435C-9A57-CB93B196B87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DF5213-E094-435C-9A57-CB93B196B87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DF5213-E094-435C-9A57-CB93B196B87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DF5213-E094-435C-9A57-CB93B196B87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC5C36F-93E1-465E-84DD-FB86C04368C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC5C36F-93E1-465E-84DD-FB86C04368C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC5C36F-93E1-465E-84DD-FB86C04368C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC5C36F-93E1-465E-84DD-FB86C04368C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA48640C-51BB-4720-A7E6-4F204A7B68E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA48640C-51BB-4720-A7E6-4F204A7B68E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA48640C-51BB-4720-A7E6-4F204A7B68E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA48640C-51BB-4720-A7E6-4F204A7B68E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463C6656-FAD4-4A6B-A715-A3F9BE4780DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463C6656-FAD4-4A6B-A715-A3F9BE4780DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463C6656-FAD4-4A6B-A715-A3F9BE4780DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463C6656-FAD4-4A6B-A715-A3F9BE4780DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A356915-DEA1-4DF5-8F4A-B224A59AC605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A356915-DEA1-4DF5-8F4A-B224A59AC605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A356915-DEA1-4DF5-8F4A-B224A59AC605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A356915-DEA1-4DF5-8F4A-B224A59AC605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04EA0C1-1935-48F2-A57F-891D92907A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04EA0C1-1935-48F2-A57F-891D92907A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04EA0C1-1935-48F2-A57F-891D92907A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04EA0C1-1935-48F2-A57F-891D92907A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C29B8DB-1A06-45EF-937F-D572597361EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C29B8DB-1A06-45EF-937F-D572597361EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C29B8DB-1A06-45EF-937F-D572597361EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C29B8DB-1A06-45EF-937F-D572597361EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8025C61E-4F0D-4D2F-A769-111F2FFB5E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8025C61E-4F0D-4D2F-A769-111F2FFB5E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8025C61E-4F0D-4D2F-A769-111F2FFB5E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8025C61E-4F0D-4D2F-A769-111F2FFB5E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F12701-4293-4A0C-B142-8441054E0575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F12701-4293-4A0C-B142-8441054E0575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F12701-4293-4A0C-B142-8441054E0575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F12701-4293-4A0C-B142-8441054E0575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B361A8-9566-4463-ABD8-F04963700E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B361A8-9566-4463-ABD8-F04963700E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B361A8-9566-4463-ABD8-F04963700E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B361A8-9566-4463-ABD8-F04963700E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -341,7 +815,6 @@ Global
 		{B75C8839-D9F0-4FDC-A8DB-536601CA4D9F} = {F4A0E608-33CD-4091-BB51-7DCCC61C83A6}
 		{CB095327-6298-4CC0-A8AE-71B3F273496F} = {F4A0E608-33CD-4091-BB51-7DCCC61C83A6}
 		{582B1FD6-EA40-459D-9502-11C49BD8076F} = {DCFED1E6-8968-4493-996D-0C1DBA8E25B6}
-		{A9CC759A-54F9-44FB-AD77-DD8F306668F7} = {DCFED1E6-8968-4493-996D-0C1DBA8E25B6}
 		{CCCF5918-C13B-4AA5-B8E7-3D0AC7C07B36} = {DCFED1E6-8968-4493-996D-0C1DBA8E25B6}
 		{D6D52363-3852-43C2-876F-F6A88F4FB4F2} = {60D01281-9241-425D-8DD0-029D9FA301AE}
 		{5BF2E3CC-0687-40A4-B20C-71513C9F1B96} = {60D01281-9241-425D-8DD0-029D9FA301AE}
@@ -349,18 +822,185 @@ Global
 		{80B18614-3B11-4529-852B-F624C585B996} = {60D01281-9241-425D-8DD0-029D9FA301AE}
 		{A71ACAB5-72C4-4EF8-BC59-67C058F1833E} = {60D01281-9241-425D-8DD0-029D9FA301AE}
 		{59430E2D-7775-413D-B34B-1EB4DD0F2306} = {8FFDBD61-F13B-4FE8-B708-8796F15CE8F3}
-		{48540890-21B4-4400-8290-071112B30D53} = {8FFDBD61-F13B-4FE8-B708-8796F15CE8F3}
+		{A9CC759A-54F9-44FB-AD77-DD8F306668F7} = {DCFED1E6-8968-4493-996D-0C1DBA8E25B6}
 		{D51963F9-9AFB-4080-B29E-4C93FB137839} = {8FFDBD61-F13B-4FE8-B708-8796F15CE8F3}
+		{48540890-21B4-4400-8290-071112B30D53} = {8FFDBD61-F13B-4FE8-B708-8796F15CE8F3}
+		{1F85C21D-A770-4E1F-92D4-8FA882881FA2} = {23F20383-2263-4BA0-ABBE-A3A5EC4CBFD4}
+		{5051D1AE-2732-4886-A3C9-89EA4CF60AE1} = {8F97CDF6-F3D7-4526-8027-AD596551FC78}
+		{3E78954F-06ED-436B-B664-3558C497565F} = {8F97CDF6-F3D7-4526-8027-AD596551FC78}
+		{6182ECD2-285A-4D8C-8DCB-98F4F7EC7065} = {8F97CDF6-F3D7-4526-8027-AD596551FC78}
+		{83B1BD27-D5B8-4B02-8057-159320CAC026} = {3B549C2E-1DBF-4FF0-9CE6-EEE6CBA4FA9E}
+		{F38C6C8A-8213-45B9-8BC8-130338134310} = {3B549C2E-1DBF-4FF0-9CE6-EEE6CBA4FA9E}
+		{05BFED21-44A8-449F-A5C9-A6A66576F764} = {3B549C2E-1DBF-4FF0-9CE6-EEE6CBA4FA9E}
+		{1D4D1197-4585-4008-B793-29EA76625E2A} = {53BE01AE-FCA1-4ABA-BCC1-A9857C86D0AE}
+		{D8446593-C47E-4EFC-A5D0-163F407AE4FC} = {53BE01AE-FCA1-4ABA-BCC1-A9857C86D0AE}
+		{64DD761E-D28D-4A09-AFB5-5190D575541F} = {53BE01AE-FCA1-4ABA-BCC1-A9857C86D0AE}
+		{8F97CDF6-F3D7-4526-8027-AD596551FC78} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{3B549C2E-1DBF-4FF0-9CE6-EEE6CBA4FA9E} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{53BE01AE-FCA1-4ABA-BCC1-A9857C86D0AE} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{59F2B5F2-B7D8-4801-97CD-4FB663F91CD3} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{7352FE8A-12A5-46EF-AA16-606C8E5732E9} = {59F2B5F2-B7D8-4801-97CD-4FB663F91CD3}
+		{EB00B3FE-BAB3-4B5B-9598-E246B1B13D0E} = {59F2B5F2-B7D8-4801-97CD-4FB663F91CD3}
+		{DE45EA61-572D-45D7-BB34-4F58B5F7A0CE} = {59F2B5F2-B7D8-4801-97CD-4FB663F91CD3}
+		{732F2974-9130-4712-9B99-A29784EA8C44} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{E0DA6C21-320F-4905-BA78-9A7A64E0979E} = {732F2974-9130-4712-9B99-A29784EA8C44}
+		{5A9BCBAE-DC53-42DC-8B65-22B82474DE37} = {732F2974-9130-4712-9B99-A29784EA8C44}
+		{0718C117-238F-4EA0-AF93-58C1BF4726A1} = {732F2974-9130-4712-9B99-A29784EA8C44}
+		{E294591C-0688-482A-B99B-988C75C3509B} = {1F85C21D-A770-4E1F-92D4-8FA882881FA2}
+		{80E38F1B-9050-4401-9AEC-C51719EE3E2D} = {E294591C-0688-482A-B99B-988C75C3509B}
+		{B6E955EA-6A3E-4046-9A3A-38062910BAF4} = {E294591C-0688-482A-B99B-988C75C3509B}
+		{667B3F16-968C-41DF-B4D5-C41AA7345E52} = {E294591C-0688-482A-B99B-988C75C3509B}
+		{8484208C-3613-44F8-AF1A-5268651A08AF} = {70761144-B9BC-4739-88A1-7A7347631854}
+		{678578F4-973D-4A28-B7D4-555C4BEBFF59} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{7CFD129B-82DB-4BA0-82CE-CD89929C148B} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{1A606C08-EAC4-4590-A902-270D7A34D31F} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{54C169A9-543C-45EE-BA58-46097B29C182} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{DCAD2223-52A0-4FB4-8616-45483987FA71} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{1FD67E79-CA23-45D6-A50B-5DC6402EE863} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{AF5FA52C-3B6A-4FFD-976F-FBB4A7CF101D} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{51EE1A38-7BA8-4120-88BE-E003E1436B60} = {8484208C-3613-44F8-AF1A-5268651A08AF}
+		{E587B9A8-80AB-4507-A59C-1A3EE3D02BD2} = {6D514CFA-B7D7-447E-84A9-DC45F687195B}
+		{B9E3D1FB-12F4-419C-BD8B-D592165165DB} = {6D514CFA-B7D7-447E-84A9-DC45F687195B}
+		{6E74DBD6-02C6-4012-A759-B6D83A3CC716} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{3BFD3615-C139-41E6-996C-B22D553D4A45} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{EC749B47-BBAC-4AA1-BCEF-B2740F3A2864} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{CF174DD6-B8A0-4A8F-A2FE-E8B8348B0BF2} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{F7E990D1-DEE8-4D5D-B0C6-D832C4DBA8CE} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{41709CC1-B661-4E08-B331-15E44646E612} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{66D8380F-C329-4298-9DFF-F26568F464C0} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{B084E980-82ED-4FD9-A355-4D4BC874651B} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{0B08C498-5648-4DB0-8ACE-4887FE11F25D} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{024EFBD2-FE11-4745-8C96-879283AB8369} = {E587B9A8-80AB-4507-A59C-1A3EE3D02BD2}
+		{81D67FA6-C80F-4AF1-A593-735A7E1AB53D} = {6E74DBD6-02C6-4012-A759-B6D83A3CC716}
+		{DE8C7D65-1037-4D04-8197-861BF5245DEB} = {6E74DBD6-02C6-4012-A759-B6D83A3CC716}
+		{473BFD04-A93B-4027-B940-A995D4BD2AAD} = {6E74DBD6-02C6-4012-A759-B6D83A3CC716}
+		{49067777-902B-43C1-955F-DF75B1F81271} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{4262BE57-2779-43AB-9EDE-F3292D00B872} = {3BFD3615-C139-41E6-996C-B22D553D4A45}
+		{BC00F25A-B6E7-47EF-86C6-739C89C67312} = {3BFD3615-C139-41E6-996C-B22D553D4A45}
+		{3D59D95B-B5A4-40CF-B0AB-C5B1957762B0} = {3BFD3615-C139-41E6-996C-B22D553D4A45}
+		{8FFE59A7-BDD6-40BD-846B-C7A71B8FAFDC} = {EC749B47-BBAC-4AA1-BCEF-B2740F3A2864}
+		{5DA76F1B-1EDC-41CF-9326-17FAF9C15973} = {EC749B47-BBAC-4AA1-BCEF-B2740F3A2864}
+		{359B6742-D7EF-489F-BCD3-217473961783} = {EC749B47-BBAC-4AA1-BCEF-B2740F3A2864}
+		{526ADAF9-4590-42CE-9401-3309D8B42727} = {CF174DD6-B8A0-4A8F-A2FE-E8B8348B0BF2}
+		{A8E564D4-B76A-408B-AD23-F43A486BD7BB} = {CF174DD6-B8A0-4A8F-A2FE-E8B8348B0BF2}
+		{D6F16B4F-0170-4109-AE5E-6CFA5CC4BCEB} = {CF174DD6-B8A0-4A8F-A2FE-E8B8348B0BF2}
+		{FD84C9D7-CE73-4496-B4B2-5806FACE2A2A} = {F7E990D1-DEE8-4D5D-B0C6-D832C4DBA8CE}
+		{A51DE707-414B-4F30-8086-5A82A97D1A2A} = {F7E990D1-DEE8-4D5D-B0C6-D832C4DBA8CE}
+		{FC8602E3-7833-4DC7-AA5E-4A7CE2220B43} = {F7E990D1-DEE8-4D5D-B0C6-D832C4DBA8CE}
+		{74D6FAAA-443A-44E3-A64B-E7098188CB91} = {41709CC1-B661-4E08-B331-15E44646E612}
+		{B7143004-2C95-4792-A48A-174AFEFB8588} = {41709CC1-B661-4E08-B331-15E44646E612}
+		{3D2C73DF-2EE4-4B05-96FC-2F8EB784D4E6} = {41709CC1-B661-4E08-B331-15E44646E612}
+		{2DA4F17E-8C39-4D3D-91C2-1D9C482B1118} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{1B8DFEF4-62C5-457E-9306-48F764B2F65C} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{57C3ED35-0F0A-467A-B9DB-D95641F0EFD7} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{A6C68C29-A517-46FF-BAF3-45C94AFF0ED8} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{DD6BA2A9-6C33-44BE-8641-2C739D53CDAA} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{B4923372-4BAA-4B51-995E-01AE7ADBCBD7} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{5B1A47C8-60CC-4E6B-B0F6-E066E8718042} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{709169F9-0F33-4E14-9FD1-AA9C3D5ED4AA} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{64D2F952-005B-4134-86C8-74E71BC8699C} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{BDA79966-BF7B-48A3-938D-9B6CA7827004} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{EBB3F88D-8568-40C2-A35D-8AD8A2A0F635} = {66D8380F-C329-4298-9DFF-F26568F464C0}
+		{DF547721-41F9-4D65-B0B4-15DDBDDD8013} = {B084E980-82ED-4FD9-A355-4D4BC874651B}
+		{743D73D1-0A7C-46EE-9F58-4B4BD5EF6411} = {B084E980-82ED-4FD9-A355-4D4BC874651B}
+		{3D158103-4ADC-460B-BC3E-FC4EEDA5B5B7} = {B084E980-82ED-4FD9-A355-4D4BC874651B}
+		{DC4EC590-B431-471D-BA5E-4C884143DE4B} = {0B08C498-5648-4DB0-8ACE-4887FE11F25D}
+		{459D0B20-51A9-4AA8-8CCC-9F5B34A74029} = {0B08C498-5648-4DB0-8ACE-4887FE11F25D}
+		{0295DCBD-B115-40F1-843C-422F1D3C8CE9} = {0B08C498-5648-4DB0-8ACE-4887FE11F25D}
+		{E7AF08D9-6A64-4BE3-801C-7ED444331788} = {024EFBD2-FE11-4745-8C96-879283AB8369}
+		{1A325222-6683-4D81-8293-AC5BD4C8D3BA} = {024EFBD2-FE11-4745-8C96-879283AB8369}
+		{FF547CAA-97BF-4C30-A0BC-0BB391C09DAC} = {024EFBD2-FE11-4745-8C96-879283AB8369}
+		{379F8F60-D0AD-4CB8-8E8C-3E07BFAACDC4} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{095D51D0-87E5-4DB8-B6E5-953475B0ADBA} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{BC6569D7-C471-4404-9FB2-6075F082EA09} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{C6BC376F-1858-4706-BA37-066AD2D0E86C} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{15BE36B1-4C24-479E-BE21-A6AE29AB7703} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{3B46D9E1-AA6E-4A24-AEBD-E5586B8ECB7A} = {B9E3D1FB-12F4-419C-BD8B-D592165165DB}
+		{83DF5213-E094-435C-9A57-CB93B196B87C} = {379F8F60-D0AD-4CB8-8E8C-3E07BFAACDC4}
+		{CCC5C36F-93E1-465E-84DD-FB86C04368C9} = {379F8F60-D0AD-4CB8-8E8C-3E07BFAACDC4}
+		{BA48640C-51BB-4720-A7E6-4F204A7B68E7} = {095D51D0-87E5-4DB8-B6E5-953475B0ADBA}
+		{1AFBC156-92EE-4118-84D6-AE163D0E654E} = {095D51D0-87E5-4DB8-B6E5-953475B0ADBA}
+		{463C6656-FAD4-4A6B-A715-A3F9BE4780DC} = {095D51D0-87E5-4DB8-B6E5-953475B0ADBA}
+		{6A356915-DEA1-4DF5-8F4A-B224A59AC605} = {BC6569D7-C471-4404-9FB2-6075F082EA09}
+		{A28F2459-D7F3-4F5B-A53E-216CABE2310F} = {BC6569D7-C471-4404-9FB2-6075F082EA09}
+		{DED0975E-7E5F-4C59-A414-3DD0ADBEB87C} = {BC6569D7-C471-4404-9FB2-6075F082EA09}
+		{A04EA0C1-1935-48F2-A57F-891D92907A20} = {C6BC376F-1858-4706-BA37-066AD2D0E86C}
+		{B9F18976-DCB3-4895-BE6E-3EBA9129A370} = {C6BC376F-1858-4706-BA37-066AD2D0E86C}
+		{1EDD4CD4-BE3A-4033-B783-88F3D01B1D0A} = {C6BC376F-1858-4706-BA37-066AD2D0E86C}
+		{9C29B8DB-1A06-45EF-937F-D572597361EB} = {15BE36B1-4C24-479E-BE21-A6AE29AB7703}
+		{3C5B9DB4-E1E0-4F37-8F3D-68B86699838E} = {15BE36B1-4C24-479E-BE21-A6AE29AB7703}
+		{2E6ACED3-D0EF-43E9-B8C9-5975E8736E30} = {15BE36B1-4C24-479E-BE21-A6AE29AB7703}
+		{8025C61E-4F0D-4D2F-A769-111F2FFB5E06} = {3B46D9E1-AA6E-4A24-AEBD-E5586B8ECB7A}
+		{C8F12701-4293-4A0C-B142-8441054E0575} = {15BE36B1-4C24-479E-BE21-A6AE29AB7703}
+		{C7419BB6-0C51-49A0-95D1-40938C203187} = {3B46D9E1-AA6E-4A24-AEBD-E5586B8ECB7A}
+		{28B361A8-9566-4463-ABD8-F04963700E30} = {3B46D9E1-AA6E-4A24-AEBD-E5586B8ECB7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E3C0443-9118-4DDA-98CA-A4FA729DF320}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ScadaComm\OpenDrivers\DrvSimulator.Shared\DrvSimulator.Shared.projitems*{0295dcbd-b115-40f1-843c-422f1d3c8ce9}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcBasic.Shared\ModArcBasic.Shared.projitems*{05bfed21-44a8-449f-a5c9-a6a66576f764}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModDbExport.Shared\ModDbExport.Shared.projitems*{0718c117-238f-4ea0-af93-58c1bf4726a1}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvTester.Shared\DrvTester.Shared.projitems*{1a325222-6683-4d81-8293-ac5bd4c8d3ba}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvCsvReader.Shared\DrvCsvReader.Shared.projitems*{1afbc156-92ee-4118-84d6-ae163d0e654e}*SharedItemsImports = 13
+		ScadaServer\OpenModules\ModArcInfluxDb.Shared\ModArcInfluxDb.Shared.projitems*{1d4d1197-4585-4008-b793-29ea76625e2a}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvHttpNotif.Shared\DrvHttpNotif.Shared.projitems*{1edd4cd4-be3a-4033-b783-88f3d01b1d0a}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvSnmp.Shared\DrvSnmp.Shared.projitems*{28b361a8-9566-4463-abd8-f04963700e30}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvSms.Shared\DrvSms.Shared.projitems*{2e6aced3-d0ef-43e9-b8c9-5975e8736e30}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvSms.Shared\DrvSms.Shared.projitems*{3c5b9db4-e1e0-4f37-8f3d-68b86699838e}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvDbImport.Shared\DrvDbImport.Shared.projitems*{3d59d95b-b5a4-40cf-b0ab-c5b1957762b0}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModActiveDirectory.Shared\ModActiveDirectory.Shared.projitems*{3e78954f-06ed-436b-b664-3558c497565f}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvDbImport.Shared\DrvDbImport.Shared.projitems*{4262be57-2779-43ab-9ede-f3292d00b872}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvSimulator.Shared\DrvSimulator.Shared.projitems*{459d0b20-51a9-4aa8-8ccc-9f5b34a74029}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvCsvReader.Shared\DrvCsvReader.Shared.projitems*{463c6656-fad4-4a6b-a715-a3f9be4780dc}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvCnlBasic.Shared\DrvCnlBasic.Shared.projitems*{473bfd04-a93b-4027-b940-a995d4bd2aad}*SharedItemsImports = 5
 		ScadaWeb\OpenPlugins\PlgWebPage.Shared\PlgWebPage.Shared.projitems*{48540890-21b4-4400-8290-071112b30d53}*SharedItemsImports = 13
+		ScadaServer\OpenModules\ModActiveDirectory.Shared\ModActiveDirectory.Shared.projitems*{5051d1ae-2732-4886-a3c9-89ea4cf60ae1}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvDsScadaServer.Shared\DrvDsScadaServer.Shared.projitems*{526adaf9-4590-42ce-9401-3309d8b42727}*SharedItemsImports = 5
 		ScadaWeb\OpenPlugins\PlgSchBasicComp.Shared\PlgSchBasicComp.Shared.projitems*{582b1fd6-ea40-459d-9502-11c49bd8076f}*SharedItemsImports = 5
 		ScadaWeb\OpenPlugins\PlgWebPage.Shared\PlgWebPage.Shared.projitems*{59430e2d-7775-413d-b34b-1eb4dd0f2306}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModDbExport.Shared\ModDbExport.Shared.projitems*{5a9bcbae-dc53-42dc-8b65-22b82474de37}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvMqttPublisher.Shared\DrvMqttPublisher.Shared.projitems*{5b1a47c8-60cc-4e6b-b0f6-e066e8718042}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModActiveDirectory.Shared\ModActiveDirectory.Shared.projitems*{6182ecd2-285a-4d8c-8dcb-98f4f7ec7065}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvDsMqtt.Shared\DrvDsMqtt.Shared.projitems*{64d2f952-005b-4134-86c8-74e71bc8699c}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcInfluxDb.Shared\ModArcInfluxDb.Shared.projitems*{64dd761e-d28d-4a09-afb5-5190d575541f}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModDiffCalculator.Shared\ModDiffCalculator.Shared.projitems*{667b3f16-968c-41df-b4d5-c41aa7345e52}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvEmail.Shared\DrvEmail.Shared.projitems*{6a356915-dea1-4df5-8f4a-b224a59ac605}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvDsMqtt.Shared\DrvDsMqtt.Shared.projitems*{709169f9-0f33-4e14-9fd1-aa9c3d5ed4aa}*SharedItemsImports = 13
+		ScadaServer\OpenModules\ModArcPostgreSql.Shared\ModArcPostgreSql.Shared.projitems*{7352fe8a-12a5-46ef-aa16-606c8e5732e9}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvSnmp.Shared\DrvSnmp.Shared.projitems*{8025c61e-4f0d-4d2f-a769-111f2ffb5e06}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModDiffCalculator.Shared\ModDiffCalculator.Shared.projitems*{80e38f1b-9050-4401-9aec-c51719ee3e2d}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvCnlBasic.Shared\DrvCnlBasic.Shared.projitems*{81d67fa6-c80f-4af1-a593-735a7e1ab53d}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcBasic.Shared\ModArcBasic.Shared.projitems*{83b1bd27-d5b8-4b02-8057-159320cac026}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvSms.Shared\DrvSms.Shared.projitems*{9c29b8db-1a06-45ef-937f-d572597361eb}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvHttpNotif.Shared\DrvHttpNotif.Shared.projitems*{a04ea0c1-1935-48f2-a57f-891d92907a20}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers2\DrvEmail.Shared\DrvEmail.Shared.projitems*{a28f2459-d7f3-4f5b-a53e-216cabe2310f}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvEnronModbus.Shared\DrvEnronModbus.Shared.projitems*{a51de707-414b-4f30-8086-5a82a97d1a2a}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvDsScadaServer.Shared\DrvDsScadaServer.Shared.projitems*{a8e564d4-b76a-408b-ad23-f43a486bd7bb}*SharedItemsImports = 13
 		ScadaWeb\OpenPlugins\PlgSchBasicComp.Shared\PlgSchBasicComp.Shared.projitems*{a9cc759a-54f9-44fb-ad77-dd8f306668f7}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvMqttPublisher.Shared\DrvMqttPublisher.Shared.projitems*{b4923372-4baa-4b51-995e-01ae7adbcbd7}*SharedItemsImports = 13
+		ScadaServer\OpenModules\ModDiffCalculator.Shared\ModDiffCalculator.Shared.projitems*{b6e955ea-6a3e-4046-9a3a-38062910baf4}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvHttpNotif.Shared\DrvHttpNotif.Shared.projitems*{b9f18976-dcb3-4895-be6e-3eba9129a370}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvCsvReader.Shared\DrvCsvReader.Shared.projitems*{ba48640c-51bb-4720-a7e6-4f204a7b68e7}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvDbImport.Shared\DrvDbImport.Shared.projitems*{bc00f25a-b6e7-47ef-86c6-739c89c67312}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvSnmp.Shared\DrvSnmp.Shared.projitems*{c7419bb6-0c51-49a0-95d1-40938c203187}*SharedItemsImports = 13
 		ScadaWeb\OpenPlugins\PlgSchBasicComp.Shared\PlgSchBasicComp.Shared.projitems*{cccf5918-c13b-4aa5-b8e7-3d0ac7c07b36}*SharedItemsImports = 5
 		ScadaWeb\OpenPlugins\PlgWebPage.Shared\PlgWebPage.Shared.projitems*{d51963f9-9afb-4080-b29e-4c93fb137839}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvDsScadaServer.Shared\DrvDsScadaServer.Shared.projitems*{d6f16b4f-0170-4109-ae5e-6cfa5cc4bceb}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcInfluxDb.Shared\ModArcInfluxDb.Shared.projitems*{d8446593-c47e-4efc-a5d0-163f407ae4fc}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvSimulator.Shared\DrvSimulator.Shared.projitems*{dc4ec590-b431-471d-ba5e-4c884143de4b}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvMqttPublisher.Shared\DrvMqttPublisher.Shared.projitems*{dd6ba2a9-6c33-44be-8641-2c739d53cdaa}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcPostgreSql.Shared\ModArcPostgreSql.Shared.projitems*{de45ea61-572d-45d7-bb34-4f58b5f7a0ce}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvCnlBasic.Shared\DrvCnlBasic.Shared.projitems*{de8c7d65-1037-4d04-8197-861bf5245deb}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers2\DrvEmail.Shared\DrvEmail.Shared.projitems*{ded0975e-7e5f-4c59-a414-3dd0adbeb87c}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModDbExport.Shared\ModDbExport.Shared.projitems*{e0da6c21-320f-4905-ba78-9a7a64e0979e}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvTester.Shared\DrvTester.Shared.projitems*{e7af08d9-6a64-4be3-801c-7ed444331788}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcPostgreSql.Shared\ModArcPostgreSql.Shared.projitems*{eb00b3fe-bab3-4b5b-9598-e246b1b13d0e}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvDsMqtt.Shared\DrvDsMqtt.Shared.projitems*{ebb3f88d-8568-40c2-a35d-8ad8a2a0f635}*SharedItemsImports = 5
+		ScadaServer\OpenModules\ModArcBasic.Shared\ModArcBasic.Shared.projitems*{f38c6c8a-8213-45b9-8bc8-130338134310}*SharedItemsImports = 13
+		ScadaComm\OpenDrivers\DrvEnronModbus.Shared\DrvEnronModbus.Shared.projitems*{fc8602e3-7833-4dc7-aa5e-4a7ce2220b43}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvEnronModbus.Shared\DrvEnronModbus.Shared.projitems*{fd84c9d7-ce73-4496-b4b2-5806face2a2a}*SharedItemsImports = 5
+		ScadaComm\OpenDrivers\DrvTester.Shared\DrvTester.Shared.projitems*{ff547caa-97bf-4c30-a0bc-0bb391c09dac}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

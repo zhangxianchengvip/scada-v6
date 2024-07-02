@@ -14,15 +14,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="ScadaCommon">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon\bin\Release\netstandard2.0\ScadaCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon.Log">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon.Log\bin\Release\netstandard2.0\ScadaCommon.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaServerCommon">
-      <HintPath>..\..\ScadaServer\ScadaServerCommon\bin\Release\netstandard2.0\ScadaServerCommon.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj" />
+    <ProjectReference Include="..\..\ScadaServer\ScadaServerCommon\ScadaServerCommon.csproj" />
   </ItemGroup>
 
   <Import Project="..\ModDiffCalculator.Shared\ModDiffCalculator.Shared.projitems" Label="Shared" />

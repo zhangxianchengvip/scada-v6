@@ -19,21 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ScadaAdminCommon">
-      <HintPath>..\..\ScadaAdmin\ScadaAdminCommon\bin\Release\net6.0-windows\ScadaAdminCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon\bin\Release\netstandard2.0\ScadaCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon.Forms">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon.Forms\bin\Release\net6.0-windows\ScadaCommon.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaCommon.Log">
-      <HintPath>..\..\..\ScadaCommon\ScadaCommon.Log\bin\Release\netstandard2.0\ScadaCommon.Log.dll</HintPath>
-    </Reference>
-    <Reference Include="ScadaWebCommon.Subset">
-      <HintPath>..\..\..\ScadaWeb\ScadaWeb\ScadaWebCommon.Subset\bin\Release\net6.0\ScadaWebCommon.Subset.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Forms\ScadaCommon.Forms.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj" />
+    <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj" />
+    <ProjectReference Include="..\..\..\ScadaWeb\ScadaWeb\ScadaWebCommon.Subset\ScadaWebCommon.Subset.csproj" />
+    <ProjectReference Include="..\..\ScadaAdmin\ScadaAdminCommon\ScadaAdminCommon.csproj" />
   </ItemGroup>
 
   <ItemGroup>
