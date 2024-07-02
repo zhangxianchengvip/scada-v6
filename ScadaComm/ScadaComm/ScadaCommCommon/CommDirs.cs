@@ -23,6 +23,8 @@
  * Modified : 2022
  */
 
+using System.IO;
+
 namespace Scada.Comm
 {
     /// <summary>
@@ -54,6 +56,12 @@ namespace Scada.Comm
         {
             base.Init(exeDir);
             DrvDir = AppendDir(ExeDir, "Drv");
+
+            //TODO:如果目录DrvDir不存在添加
+            if (!Directory.Exists(DrvDir))
+            {
+                Directory.CreateDirectory(DrvDir);
+            }
         }
 
         /// <summary>
