@@ -23,6 +23,8 @@
  * Modified : 2022
  */
 
+using System.IO;
+
 namespace Scada.Server
 {
     /// <summary>
@@ -54,6 +56,12 @@ namespace Scada.Server
         {
             base.Init(exeDir);
             ModDir = AppendDir(ExeDir, "Mod");
+
+            //TODO: 如果没有目录就添加一个
+            if (!Directory.Exists(ModDir))
+            {
+                Directory.CreateDirectory(ModDir);
+            }
         }
 
         /// <summary>
