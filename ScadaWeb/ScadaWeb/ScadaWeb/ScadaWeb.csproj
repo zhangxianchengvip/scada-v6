@@ -42,12 +42,52 @@
   <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="libman.json" />
+    <None Include="wwwroot\plugins\Chart\css\chart-form.scss" />
+    <None Include="wwwroot\plugins\Chart\css\chart.scss" />
+    <None Include="wwwroot\plugins\Chart\js\chart-feature.js" />
+    <None Include="wwwroot\plugins\Chart\js\chart-form.js" />
+    <None Include="wwwroot\plugins\Chart\js\chart-prereq.js" />
+    <None Include="wwwroot\plugins\Chart\js\chart.js" />
+    <None Include="wwwroot\plugins\Main\css\command.scss" />
+    <None Include="wwwroot\plugins\Main\css\event-ack.scss" />
+    <None Include="wwwroot\plugins\Main\css\events.scss" />
+    <None Include="wwwroot\plugins\Main\css\table-view.scss" />
+    <None Include="wwwroot\plugins\Main\css\_event-common.scss" />
+    <None Include="wwwroot\plugins\Main\css\_table-common.scss" />
+    <None Include="wwwroot\plugins\Main\js\command-feature.js" />
+    <None Include="wwwroot\plugins\Main\js\command.js" />
+    <None Include="wwwroot\plugins\Main\js\event-ack-feature.js" />
+    <None Include="wwwroot\plugins\Main\js\event-ack.js" />
+    <None Include="wwwroot\plugins\Main\js\event-report.js" />
+    <None Include="wwwroot\plugins\Main\js\events.js" />
+    <None Include="wwwroot\plugins\Main\js\hist-data-report.js" />
+    <None Include="wwwroot\plugins\Main\js\main-api.js" />
+    <None Include="wwwroot\plugins\Main\js\table-common.js" />
+    <None Include="wwwroot\plugins\Main\js\table-view.js" />
+    <None Include="wwwroot\plugins\SchBasicComp\css\basiccomp.scss" />
+    <None Include="wwwroot\plugins\SchBasicComp\js\basiccomp-render.js" />
+    <None Include="wwwroot\plugins\Scheme\css\scheme-view.scss" />
+    <None Include="wwwroot\plugins\Scheme\css\_scheme.scss" />
+    <None Include="wwwroot\plugins\Scheme\js\scheme-common.js" />
+    <None Include="wwwroot\plugins\Scheme\js\scheme-model.js" />
+    <None Include="wwwroot\plugins\Scheme\js\scheme-render.js" />
+    <None Include="wwwroot\plugins\Scheme\js\scheme-view.js" />
+    <None Include="wwwroot\plugins\Store\js\download.js" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\ScadaCommon\FileStorage\FileStorage.csproj" />
     <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon.Log\ScadaCommon.Log.csproj" />
     <ProjectReference Include="..\..\..\ScadaCommon\ScadaCommon\ScadaCommon.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgChart.Common\PlgChart.Common.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgChart\PlgChart.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgMain.Common\PlgMain.Common.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgMain.Report\PlgMain.Report.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgMain\PlgMain.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgSchBasicComp\PlgSchBasicComp.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgScheme.Common\PlgScheme.Common.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgScheme\PlgScheme.csproj" />
+    <ProjectReference Include="..\..\OpenPlugins\PlgWebPage\PlgWebPage.csproj" />
     <ProjectReference Include="..\ScadaWebCommon\ScadaWebCommon.csproj" />
   </ItemGroup>
 
