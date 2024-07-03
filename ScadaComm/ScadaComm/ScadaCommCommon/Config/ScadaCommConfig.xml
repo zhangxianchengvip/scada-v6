@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <ScadaCommConfig>
   <GeneralOptions>
     <IsBound>true</IsBound>
@@ -38,7 +38,6 @@
     </DataSource>
   </DataSources>
   <Lines>
-    <!-- Communication line example
     <Line active="true" isBound="true" number="1" name="My Line">
       <LineOptions>
         <ReqRetries>3</ReqRetries>
@@ -47,22 +46,11 @@
         <PollAfterCmd>true</PollAfterCmd>
         <DetailedLog>true</DetailedLog>
       </LineOptions>
-      <Channel type="TcpClient" driver="DrvCnlBasic">
-        <Option name="Behavior" value="Master" />
-        <Option name="ConnMode" value="Individual" />
-        <Option name="IpAddress" value="" />
-        <Option name="TcpPort" value="502" />
-      </Channel>
-      <CustomOptions>
-        <Option name="TransMode" value="TCP" />
-      </CustomOptions>
+      <Channel type="" driver="" />
+      <CustomOptions />
       <DevicePolling>
-        <Device active="true" isBound="true" number="11" name="ADAM-6015 Server room" driver="DrvModbus" numAddress="1" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Adam6015.xml" />
-        <Device active="true" isBound="true" number="12" name="Test Device" driver="DrvTest" numAddress="0" strAddress="" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="">
-          <Option name="MyOption" value="Abc" />
-        </Device>
+        <Device active="true" isBound="true" number="1" name="Simulator" driver="DrvSimulator" numAddress="0" strAddress="" pollOnCmd="false" timeout="0" delay="1000" time="00:00:00" period="00:00:00" cmdLine="" />
       </DevicePolling>
     </Line>
-    -->
   </Lines>
 </ScadaCommConfig>

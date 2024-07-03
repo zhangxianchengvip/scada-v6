@@ -178,7 +178,7 @@ namespace Scada.Comm.Engine
                 appCmdQueue = new Queue<TeleCommand>();
                 commandReader = AppConfig.GeneralOptions.EnableFileCommands ? new CommandReader(this) : null;
             }
-
+            //TODO:初始化驱动
             InitDrivers();
             InitDataSources();
         }

@@ -167,6 +167,7 @@ namespace Scada.Server.Engine
                 logFile.CapacityMB = appConfig.GeneralOptions.MaxLogSize;
                 coreLogic = new CoreLogic(instanceConfig, appConfig, AppDirs, storageWrapper.Storage, log);
 
+                //TODO:ScadaSerivceEngine 核心逻辑
                 if (coreLogic.StartProcessing())
                     return true;
             }

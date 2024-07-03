@@ -226,6 +226,7 @@ namespace Scada.Server.Engine
             eventQueue = new Queue<EventItem>();
             commandQueue = new Queue<CommandItem>();
 
+            //TODO:ScadaServiceEngine 初始化模块
             InitModules();
             InitArchives();
             return true;

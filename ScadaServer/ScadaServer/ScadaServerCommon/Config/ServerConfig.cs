@@ -81,6 +81,7 @@ namespace Scada.Server.Config
         /// </summary>
         protected override void Load(TextReader reader)
         {
+            //TODO: 通过ScadaServerConfig.xml 读取模块
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.Load(reader);
             XmlElement rootElem = xmlDoc.DocumentElement;

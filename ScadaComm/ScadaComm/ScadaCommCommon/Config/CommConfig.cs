@@ -111,6 +111,7 @@ namespace Scada.Comm.Config
         /// </summary>
         protected override void Load(TextReader reader)
         {
+            //TODO：ScadaCommConfig.xml加载数据源
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.Load(reader);
             XmlElement rootElem = xmlDoc.DocumentElement;
