@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KpOpcUaDictionaries>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Controls.CtrlCommand">
+    <Phrase key="gbCommand">Параметры команды</Phrase>
+    <Phrase key="lblDisplayName">Наименование</Phrase>
+    <Phrase key="lblCmdCode">Код команды</Phrase>
+    <Phrase key="lblCmdNum">Номер команды</Phrase>
+    <Phrase key="lblNodeID">Идентификатор узла</Phrase>
+    <Phrase key="lblParentNodeID">Идентификатор родительского узла</Phrase>
+    <Phrase key="lblDataType">Тип данных</Phrase>
+    <Phrase key="chkIsMethod">Метод</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcClassic.View.Controls.CtrlEmptyItem">
+    <Phrase key="gbEmptyItem">Параметры элемента</Phrase>
+    <Phrase key="lblNotSelected">Элемент не выбран</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Controls.CtrlItem">
+    <Phrase key="gbItem">Параметры элемента</Phrase>
+    <Phrase key="chkItemActive">Активен</Phrase>
+    <Phrase key="lblDisplayName">Наименование</Phrase>
+    <Phrase key="lblTagCode">Код тега</Phrase>
+    <Phrase key="lblTagNum">Номер тега</Phrase>
+    <Phrase key="lblNodeID">Идентификатор узла</Phrase>
+    <Phrase key="lblDataType">Тип данных</Phrase>
+    <Phrase key="chkIsString">Строка</Phrase>
+    <Phrase key="chkIsArray">Массив</Phrase>
+    <Phrase key="lblDataLen">Длина строки или массива</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Controls.CtrlSubscription">
+    <Phrase key="gbSubscription">Параметры подписки</Phrase>
+    <Phrase key="chkSubscrActive">Активна</Phrase>
+    <Phrase key="lblDisplayName">Наименование</Phrase>
+    <Phrase key="lblPublishingInterval">Интервал публикации</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Forms.FrmDeviceConfig">
+    <Phrase key="this">Свойства устройства {0} - OPC UA</Phrase>
+    <Phrase key="gbConnectionOptions">Параметры соединения</Phrase>
+    <Phrase key="lblServerUrl">Адрес сервера</Phrase>
+    <Phrase key="btnSecurityOptions.ToolTip">Настройки безопасности</Phrase>
+    <Phrase key="lblConnectionInfo">Параметры соединения общие для линии связи.</Phrase>
+    <Phrase key="gbServerBrowse">Обзор сервера</Phrase>
+    <Phrase key="btnConnect.ToolTip">Соединиться с сервером</Phrase>
+    <Phrase key="btnDisconnect.ToolTip">Разъединиться с сервером</Phrase>
+    <Phrase key="btnViewAttrs.ToolTip">Просмотреть атрибуты</Phrase>
+    <Phrase key="gbDevice">Конфигурация устройства</Phrase>
+    <Phrase key="btnAddItem.ToolTip">Добавить выбранный элемент</Phrase>
+    <Phrase key="btnAddSubscription.ToolTip">Добавить подписку</Phrase>
+    <Phrase key="btnMoveUpItem.ToolTip">Переместить вверх</Phrase>
+    <Phrase key="btnMoveDownItem.ToolTip">Переместить вниз</Phrase>
+    <Phrase key="btnDeleteItem.ToolTip">Удалить</Phrase>
+    <Phrase key="btnEditingOptions">Параметры</Phrase>
+    <Phrase key="btnSave">Сохранить</Phrase>
+    <Phrase key="btnClose">Закрыть</Phrase>
+    <Phrase key="ConnectServerError">Ошибка при соединении с OPC-сервером</Phrase>
+    <Phrase key="DisconnectServerError">Ошибка при разъединении с OPC-сервером</Phrase>
+    <Phrase key="BrowseServerError">Ошибка при обзоре элемента OPC-сервера</Phrase>
+    <Phrase key="UnableToReadData">Не удалось прочитать данные.</Phrase>
+    <Phrase key="GetDataTypeError">Ошибка при получении типа данных</Phrase>
+    <Phrase key="ServerUrlRequired">Адрес сервера не должен быть пустым.</Phrase>
+    <Phrase key="EmptyNode">Пусто</Phrase>
+    <Phrase key="SubscriptionsNode">Подписки</Phrase>
+    <Phrase key="CommandsNode">Команды</Phrase>
+    <Phrase key="UnnamedSubscription">&lt;Безымянная подписка&gt;</Phrase>
+    <Phrase key="UnnamedItem">&lt;Безымянный элемент&gt;</Phrase>
+    <Phrase key="UnnamedCommand">&lt;Безымянная команда&gt;</Phrase>
+    <Phrase key="UnknownDataType">Неизвестный тип данных &quot;{0}&quot;.</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Forms.FrmEditingOptions">
+    <Phrase key="this">Параметры редактирования</Phrase>
+    <Phrase key="lblDefaultTagCode">Код тега по умолчанию</Phrase>
+    <Phrase key="cbDefaultTagCode.Items[0]">Идентификатор узла</Phrase>
+    <Phrase key="cbDefaultTagCode.Items[1]">Наименование</Phrase>
+    <Phrase key="btnOK">OK</Phrase>
+    <Phrase key="btnCancel">Отмена</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Forms.FrmNodeAttr">
+    <Phrase key="this">Атрибуты узла</Phrase>
+    <Phrase key="colName">Наименование</Phrase>
+    <Phrase key="colValue">Значение</Phrase>
+    <Phrase key="btnClose">Закрыть</Phrase>
+    <Phrase key="ReadAttrError">Ошибка при чтении атрибутов с OPC-сервера</Phrase>
+  </Dictionary>
+  <Dictionary key="Scada.Comm.Drivers.DrvOpcUa.View.Forms.FrmSecurityOptions">
+    <Phrase key="this">Параметры безопасности</Phrase>
+    <Phrase key="lblSecurityMode">Режим безопасности</Phrase>
+    <Phrase key="cbSecurityMode.Items[0]">Нет</Phrase>
+    <Phrase key="cbSecurityMode.Items[1]">Подпись</Phrase>
+    <Phrase key="cbSecurityMode.Items[2]">Подпись и шифрование</Phrase>
+    <Phrase key="lblSecurityPolicy">Политика безопасности</Phrase>
+    <Phrase key="cbSecurityPolicy.Items[0]">Нет</Phrase>
+    <Phrase key="lblAuthenticationMode">Режим аутентификации</Phrase>
+    <Phrase key="cbAuthenticationMode.Items[0]">Анонимно</Phrase>
+    <Phrase key="cbAuthenticationMode.Items[1]">Имя пользователя и пароль</Phrase>
+    <Phrase key="lblUsername">Имя пользователя</Phrase>
+    <Phrase key="lblPassword">Пароль</Phrase>
+    <Phrase key="btnOK">OK</Phrase>
+    <Phrase key="btnCancel">Отмена</Phrase>
+  </Dictionary>
+</KpOpcUaDictionaries>
