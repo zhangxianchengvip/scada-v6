@@ -1,0 +1,2 @@
+﻿PreBuild.bat:生成项目dll
+PostBuild.bat:生成后复制文件到Lib文件夹
