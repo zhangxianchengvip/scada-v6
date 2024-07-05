@@ -1,22 +1,22 @@
 echo 'return build Directory'
 cd ../../../
-echo 'build ScadaCommon'
-dotnet build ScadaCommon/ScadaCommon.sln -c Release
+rem echo 'build ScadaCommon'
+rem dotnet build ScadaCommon/ScadaCommon.sln -c Release
 
-echo 'build ScadaAgent'
-dotnet build ScadaAgent/ScadaAgent/ScadaAgent.sln -c Release
+rem echo 'build ScadaAgent'
+rem dotnet build ScadaAgent/ScadaAgent/ScadaAgent.sln -c Release
 
-echo 'build ScadaComm'
-dotnet build ScadaComm/ScadaComm/ScadaComm.sln -c Release
+rem echo 'build ScadaComm'
+rem dotnet build ScadaComm/ScadaComm/ScadaComm.sln -c Release
 
-echo 'build ScadaServer'
-dotnet build ScadaServer/ScadaServer/ScadaServer.sln -c Release
+rem echo 'build ScadaServer'
+rem dotnet build ScadaServer/ScadaServer/ScadaServer.sln -c Release
 
-echo 'build ScadaWeb'
-dotnet build ScadaWeb/ScadaWeb/ScadaWeb.sln -c Release
+rem echo 'build ScadaWeb'
+rem dotnet build ScadaWeb/ScadaWeb/ScadaWeb.sln -c Release
 
-echo 'build ScadaReport'
-dotnet build ScadaReport/ScadaReport.sln -c Release
+rem echo 'build ScadaReport'
+rem dotnet build ScadaReport/ScadaReport.sln -c Release
 
 echo 'build OpenDrivers'
 dotnet build ScadaComm/OpenDrivers/OpenDrivers.sln -c Release
