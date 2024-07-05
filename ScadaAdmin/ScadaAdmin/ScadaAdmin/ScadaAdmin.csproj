@@ -184,4 +184,8 @@
     <Exec Command="Call ./Bat/PostBuild.bat" />
   </Target>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="Call ./Bat/PreBuild.bat" />
+  </Target>
+
 </Project>
